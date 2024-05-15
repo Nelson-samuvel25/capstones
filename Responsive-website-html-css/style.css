@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: black;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+ 
+    color: white;
+    align-items: center;
+    padding: 12px;
+    font-family: "Freeman", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+      
+}
+
+
+.modules ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+.modules ul li{
+    margin-right: 32px;
+}
+
+.modules ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+.profile-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+
+}
+
+.info{
+    margin-right: 30px;
+    font-size: 32px;
+    line-height: 1.5;
+}
+
+.info p{
+    color: gray;
+}
+
+
+
+#pic{
+    width: 300px;
+    height: 300px;
+    border-radius: 200px;
+    margin-left: 30px;
+}
+
+
+
+#skills{
+    background-color: black;
+    color: white;
+
+
+    
+      font-family: "Roboto Slab", serif;
+      font-optical-sizing: auto;
+      font-weight: 500;
+      font-style: normal;
+      font-size: 20px;
+
+
+}
+
+.desc{
+    margin-top: 24px;
+}
+
+
+.skill-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 90vh;
+}
+
+
+.skill-pic{
+    width: 50%;
+    border-radius: 100px;
+    display: block;
+    margin: auto;
+}
+
+
+
+.inskill{
+    width: 30%;
+}
+
+.img-container{
+    width: 100%;
+}
+
+.heading{
+    font-size: 32px;
+    text-align: center;
+    padding-top: 42px;
+}
+
+
+#contact{
+    height: 60vh;
+    font-family: "Freeman", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+}
+
+
+.message{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+button{
+    margin-top: 24px;
+    width: 150px;
+    padding: 12px;
+    font-size: 20px;
+    border: none;
+    background-color: gray;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+
+footer{
+    height: 60vh;
+    background-color: black;
+    color: white;
+    
+}
+
+.linked{
+    text-decoration: none;
+    color: white;
+    font-size: 32px;
+}
+
+.foot{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+}
+
+span{
+    font-weight: bolder;
+    color: aqua;
+}
+
+
+
+
+
+
+@media(max-width:425px){
+    .head{
+        display: inline-block;
+    }
+    .modules ul{
+        display: inline-block;
+        margin-top: 12px;
+    }
+    .modules ul li{
+        margin-top: 12px;
+    }
+
+    .profile-container{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .skill-container{
+        display: inline-block;
+        padding-bottom: 20px;
+    }
+
+    .inskill{
+        width: 100%;
+        display: flex;
+    }
+
+    .img-container{
+        width: 50%;
+        margin-top: 32px;
+    }
+
+    .desc{
+        width: 50%;
+        margin-right: 20px;
+    }
+
+    .foot{
+        width: 60%;
+        margin: 0 auto;
+        line-height: 1.5;
+        font-size: 20px;
+    }
+
+
+
+}
+
+
+@media(max-width:768px){
+    #pic{
+        width: 200px;
+        height: 200px;
+        border-radius: 100px;
+        margin: 0 30px;
+        
+    }
+
+    .info{
+        margin: 0 30px;
+        font-size: 26px;
+        
+
+    }
+    
+    #skills{
+        font-size: 16px;
+    }
+
+    .skill-pic{
+        width: 60%;
+    }
+
+    .foot{
+        font-size: 24px;
+    }
+
+}
+
+
+
+@media(min-width:1440px){
+
+
+
+    .foot{
+        font-size: 28px;
+    }
+}
